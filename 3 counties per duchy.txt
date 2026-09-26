@@ -1,0 +1,95 @@
+3 counties per duchy
+3 duchies per kingdom
+5 kingdoms per empire
+
+
+Empires:
+1. Castanea Union (Greece/Orthodox Slavic)
+2. Waditic Peoples (Africa)
+3. Great (Dynasty Name) (Chinese)
+4. Hesthurgmani Hegemony (Germanic)
+5. Bhaj-Singh (Indian)
+6. Salb-Uthul (Egypt/Mesopotamia)
+7. Remant (Roman Empire)
+
+Hegemony
+New Earth: All 7 empires required (Decision needed)
+
+Struggles:
+Castenia: Old Faiths vs New Faiths
+Waditic Peoples: Gold Mine Control and 2 faiths (male vs female dominated)
+Great (Dynasty Name) 5 Kingdoms with 2 factions Guojin and Tianjin (Faiths)
+Hesthurgami: (Holy Roman Empire Culture Struggle) (Northern kingdoms vs southern kingdoms)
+Bhaj-Singh: 3 Faiths Struggle (Polytheism and Monotheism faith)
+Salb-Uthul: God-King Pharaoh vs detractors of the Pharaoh
+Remant: East West Struggle (Culture and faith)
+
+
+Race Traits:
+Human: Although these creatures have no extraordinary abilities. They learn fast and are adaptive. (Better lifestyle exp)
+Elf: A group of people better attuned to forests. They love diplomacy and scheming but are bad at martial.
+Orc: A group of people better attuned to swamps and marshes. They love martial and learning, but are bad at stewardship.
+Dwarf: A group of people better attuned to mountains. They love stewardship and diplomacy, but are bad at scheming.
+Goblin: A group of smaller people with poor prowess but are very good at scheming.
+Merfolk: Fishlike people who prefer coastal areas, hates the mountains and deserts, good at stewardship.
+Troll: A group of people who originate from the swamp and have giant tusks. Although they are brutes, they like to collect gold.
+Ogre: A giant group of people who like to fight and live next to mountains.
+Giants: A groups of people who like to build castles and make monuments.
+Yaksha/Yakshini: Although they have historically been classified as brutes, they are lawful and prefer to guard temples and are pious.
+Nymph/Satyr: A group of lustful peoples, they think of procreation and feasts. They seduce powerful lineages for possible strong offspring.
+Fairy: A group of industrious peoples who prefer to live with nature and hold celebrations.
+Centaur: A 4 legged race who are nomadic and prefer to live in open steppes.
+Demon/Succubus: An all-powerful evil group of people who prefer to destroy and conquer. They may also seduce powerful rulers for strong offspring
+Naga: A group of snake people who prefer the desert. They prefer to read scriptures and also plan schemes.
+Chromatic Dragonborn: Officially there are 5 kinds of dragons: Red, Blue, Green, Black, and White. Their metallic cousins have gone extinct.
+Gem Dragonborn: Eastern dragonborn who prefer calligraphy, learning, and diplomacy. There are 5 kinds: Jade, Ruby, Citrine, Crystal, and Sapphire.
+Canine: A group of loyal people who like to make friends and stick with family. They are good at diplomacy and martial.
+Feline: Prideful people who prefer to rule and stick with family. They are good at martial and scheming.
+Bovine: People with two horns who prefer to farm and eat grass. They are good at building mazes.
+Equine: A group of fast people who prefer to joust, hunt, and migrate. Some prefer to document their mating and ancestors through books.
+Bear: A group of people who prefer to protect their loved ones and rule with compassion. Apparently they have stuffed toys made of cotton modeled after them.
+Deer: A group of people who prefer to live independently and hunt for their protection. They are territorial and love their antlers.
+Avian: A group of bird people who like to live in the mountains and houses in trees.
+Elephant: A large group of people who live in savannahs near the desert.
+Hominid
+Boar: A group of people with a hearty sense of being able to find treasure and food.
+
+Location and Race Placements
+1. Castanea Union: Human, Elf, Canine, Equine, Bear, Feline, Deer, Orc, Dwarf, Centaur, Satyr/Nymph, Merfolk
+2. Waditic Peoples: Human, Orc, Canine, Elephant, Naga, Giant, Goblin, Feline, Hominid, Equine, Boar, Hominid, Bovine
+3. Great (Dynasty Name): Human, Yaksha, Centaur, Equine, Merfolk, Avian, Feline, Naga, Gem Dragonborn, Elephant, Hominid, Orc, Boar, Hominid, Bovine
+4. Hesthurgmani Hegemony: Human, Elf, Orc, Dwarf, Goblin, Kobold, Merfolk, Troll, Ogre, Giant, Nymph/Satyr, Fairy, Centaur, Canine, Feline, Equine, Bear, Deer, Avian, Chromatic Dragonborn, Boar, Hominid, Bovine, Avian
+5. Bhaj-Singh: Human, Yaksha, Elephant, Avian, Hominid, Canine, Feline, Orc, Boar, Hominid, Bovine
+6. Salb-Uthul: Human, Naga, Canine, Feline, Elephant, Chromatic Dragonborn, Equine, Bovine
+7. Remant: Human, Elf, Orc, Dwarf, Goblin, Kobold, Merfolk, Troll, Ogre, Giant, Nymph/Satyr,  Fairy, Centaur, Canine, Feline, Equine, Bear, Deer, Avian, Chromatic Dragonborn, Boar, Hominid, Bovine
+At 250 years after the start date, there will be a demon invasion near Remant
+
+Holy Blood (As a trait with xp that can only be boosted with inheritance) is based on inheritance from ancestors also known as the strongest generation. They come from 3 different deities.
+(At 0, none. Below half, partial. Below 75% but above half, minor. Above 75% but under full, major. At 100%, perfect.)
+Elf: Hortensia, the goddess's gardener. Blond haired and fair, she is a master of the scythe.
+Orc: Orcivius, the goddess's enforcer. Black haired and green, he is a master of the club.
+Dwarf: Rutilius, the goddess's goldsmith. Red haired and hairy, he is a master of the hammer.
+Goblin: Viridius, the goddess's informant. Small and green, he is a master of the knife.
+Merfolk: Glaucus, the goddess's harbormaster. Black and white, he is a master of the trident.
+Troll: Volg, Galzag's left hand man.
+Ogre: Morg, Galzag's right hand man.
+Hominid: Bhu-Puna, Devi's sage. Mischievous but kind, he is a master of dharma.
+Boar: Germanicus, the goddess's hero. Golden fur and powerful, he is a master of the axe.
+Giants: Vulcanus, the goddess's builder. Dark skinned and massive, he is a master of wrestling.
+Yaksha/Yakshini: Chu-Raja, Devi's guardian. Patient and fortunate, he is a master of karma.
+Nymph/Satyr: Silenus, the goddess's winemaker. Uncouth but wise, he is a master of the lyre.
+Fairy: Nymphidia, the goddess's administrator. Beautiful and lustful, she is a master of the flute.
+Centaur: Cheirus, the goddess's hunter. Just and fatherlike, he is a master of the bow.
+Demon/Succubus: Galzag, the chaos deity. Was banished a long time ago but his children still are active.
+Bovine: Mogong, Devi's bodyguard. Large and disciplined, he a master of martial arts.
+Naga: Ichi, Devi's guru. Wise and clever. He is a master of philosophy.
+Chromatic Dragonborn: Draconus, the goddess's scholar. Smart but muscular, he is a master of magic.
+Gem Dragonborn: Shulung, Devi's dancer. Intersex, but beautiful. She is a master of bushido.
+Canine: Romulus, the goddess's general. Ruthless and sadistic, he is a master of the sword.
+Feline: Felicia, the goddess's executioner. Decisive and selfless, she is a master of the scepter.
+Equine: Equitus, the goddess's messenger. Quick and strong, he a master of the lance.
+Bear: Arcus, the goddess's marshal. Brave and bold, he a master of the shield.
+Deer: Cervonia, the goddess's priestess. Shrewd and temperate, she a master of the cane.
+Avian: Garuda, Devi's charioteer. Strong and ferocious, He is a master of athletics.
+Elephant: Africanus, the goddess's engineer. Unyielding and stalwart, he is a master of the ballista.
+
