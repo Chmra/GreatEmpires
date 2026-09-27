@@ -1,0 +1,7 @@
+﻿l_english:
+ ge_form_new_earth_decision:0 "Proclaim New Earth"
+ ge_form_new_earth_decision_desc:0 "Hold all seven empires, and the world can be named again."
+ ge_form_new_earth_decision_tooltip:0 "Create the titular empire of New Earth."
+ ge_form_new_earth_decision_effect_tt:0 "You become ruler of New Earth."
+ ge_form_new_earth_decision_confirm:0 "The world is one."
+ ge_demon_invasion_stub_tt:0 "A demon host is rumored near Remant. (Event chain not scripted yet.)"

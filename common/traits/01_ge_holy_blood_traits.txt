@@ -1,0 +1,100 @@
+# Holy Blood — ancestor-only XP buckets from DesignGuide.txt
+# 0 none (no trait) / partial / minor / major / perfect
+# Birth on-action in common/on_action/00_ge_on_actions.txt copies the higher parent tier.
+
+ge_holy_blood_partial = {
+	category = fame
+	good = yes
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 15
+	icon = "gfx/interface/icons/traits/_frame_fame_neutral.dds"
+	opposites = { ge_holy_blood_minor ge_holy_blood_major ge_holy_blood_perfect }
+
+	diplomacy = 1
+	same_opinion = 5
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_holy_blood_partial_desc
+			}
+			desc = trait_ge_holy_blood_partial_character_desc
+		}
+	}
+}
+
+ge_holy_blood_minor = {
+	category = fame
+	good = yes
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 30
+	icon = "gfx/interface/icons/traits/_frame_fame_good.dds"
+	opposites = { ge_holy_blood_partial ge_holy_blood_major ge_holy_blood_perfect }
+
+	diplomacy = 1
+	martial = 1
+	prowess = 1
+	same_opinion = 8
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_holy_blood_minor_desc
+			}
+			desc = trait_ge_holy_blood_minor_character_desc
+		}
+	}
+}
+
+ge_holy_blood_major = {
+	category = fame
+	good = yes
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 50
+	icon = "gfx/interface/icons/traits/_frame_fame_good.dds"
+	opposites = { ge_holy_blood_partial ge_holy_blood_minor ge_holy_blood_perfect }
+
+	diplomacy = 2
+	martial = 1
+	learning = 1
+	prowess = 2
+	same_opinion = 12
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_holy_blood_major_desc
+			}
+			desc = trait_ge_holy_blood_major_character_desc
+		}
+	}
+}
+
+ge_holy_blood_perfect = {
+	category = fame
+	good = yes
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 80
+	icon = "gfx/interface/icons/traits/_frame_commander.dds"
+	opposites = { ge_holy_blood_partial ge_holy_blood_minor ge_holy_blood_major }
+
+	diplomacy = 2
+	martial = 2
+	learning = 2
+	prowess = 3
+	monthly_prestige = 0.3
+	same_opinion = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_holy_blood_perfect_desc
+			}
+			desc = trait_ge_holy_blood_perfect_character_desc
+		}
+	}
+}

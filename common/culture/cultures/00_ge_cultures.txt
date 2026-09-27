@@ -1,0 +1,136 @@
+# One starter culture per empire. Name lists and gfx reuse vanilla
+# so these load on the stock map before the custom map exists.
+
+castanean = {
+	color = rgb { 72 92 168 }
+	ethos = ethos_courtly
+	heritage = heritage_ge_castanean
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_legalistic
+		tradition_poetry
+		tradition_religious_patronage
+	}
+	name_list = name_list_greek
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	ethnicities = { 10 = mediterranean }
+}
+
+waditic = {
+	color = rgb { 168 110 42 }
+	ethos = ethos_stoic
+	heritage = heritage_ge_waditic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_dryland_dwellers
+		tradition_festivities
+		tradition_warrior_culture
+	}
+	name_list = name_list_butr
+	coa_gfx = { west_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	ethnicities = { 10 = african }
+}
+
+tianzhao = {
+	color = rgb { 178 42 42 }
+	ethos = ethos_bureaucratic
+	heritage = heritage_ge_tianzhao
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_court_eunuchs
+		tradition_family_entrepreneurship
+	}
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	ethnicities = { 10 = asian }
+	dynasty_name_first = yes
+}
+
+hesthurgmani = {
+	color = rgb { 120 120 120 }
+	ethos = ethos_bellicose
+	heritage = heritage_ge_hesthurgmani
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_chivalry
+		tradition_hereditary_hierarchy
+		tradition_stand_and_fight
+	}
+	name_list = name_list_franconian
+	coa_gfx = { german_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	ethnicities = { 10 = caucasian_northern }
+}
+
+bhajsingh = {
+	color = rgb { 210 150 40 }
+	ethos = ethos_spiritual
+	heritage = heritage_ge_bhajsingh
+	language = language_hindustani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_vegetarianism
+		tradition_esteemed_hospitality
+	}
+	name_list = name_list_hindustani
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	ethnicities = { 10 = indian }
+}
+
+salbuthul = {
+	color = rgb { 40 90 70 }
+	ethos = ethos_spiritual
+	heritage = heritage_ge_salbuthul
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_philosopher_culture
+		tradition_mystical_ancestors
+	}
+	name_list = name_list_bedouin
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	ethnicities = { 10 = arab }
+}
+
+remant = {
+	color = rgb { 128 24 24 }
+	ethos = ethos_bellicose
+	heritage = heritage_ge_remant
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_legalistic
+		tradition_formation_fighting
+		tradition_chivalry
+	}
+	name_list = name_list_italian
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	ethnicities = { 10 = mediterranean }
+}

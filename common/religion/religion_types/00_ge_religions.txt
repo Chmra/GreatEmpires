@@ -1,0 +1,1031 @@
+# Great Empires faiths — one religion per struggle.
+# Holy sites and icons reuse vanilla keys so this loads without custom map art.
+# 1.19 reads religions from common/religion/religion_types.
+
+ge_castanean_religion = {
+	family = rf_abrahamic
+	graphical_faith = orthodox_gfx
+	doctrine = abrahamic_hostility_doctrine
+
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_pilgrimage_encouraged
+	doctrine = doctrine_funeral_stoic
+
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_cousins
+
+	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_shunned
+
+	traits = {
+		virtues = { temperate honest }
+		sins = { gluttonous deceitful }
+	}
+
+	reserved_male_names = { }
+	reserved_female_names = { }
+
+	holy_order_names = {
+		{ name = "holy_order_knights_of_castanea" }
+	}
+	holy_order_maa = { armored_footmen }
+
+	localization = {
+		HighGodName = ge_castanean_high_god
+		HighGodNamePossessive = ge_castanean_high_god_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = ge_castanean_high_god
+		HighGodNameAlternatePossessive = ge_castanean_high_god_possessive
+		DevilName = ge_generic_devil
+		DevilNamePossessive = ge_generic_devil_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		PantheonTerm = ge_word_faith
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = { ge_castanean_high_god }
+		DevilNames = { ge_generic_devil }
+		FateGodName = ge_castanean_high_god
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerselfHimself = CHARACTER_HIMSELF
+		FateGodPossessive = ge_castanean_high_god_possessive
+		WealthGodName = ge_castanean_high_god
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerselfHimself = CHARACTER_HIMSELF
+		WealthGodPossessive = ge_castanean_high_god_possessive
+		HouseholdGodName = ge_castanean_high_god
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerselfHimself = CHARACTER_HIMSELF
+		HouseholdGodPossessive = ge_castanean_high_god_possessive
+		KnowledgeGodName = ge_castanean_high_god
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerselfHimself = CHARACTER_HIMSELF
+		KnowledgeGodPossessive = ge_castanean_high_god_possessive
+		WarGodName = ge_castanean_high_god
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerselfHimself = CHARACTER_HIMSELF
+		WarGodPossessive = ge_castanean_high_god_possessive
+		WaterGodName = ge_castanean_high_god
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerselfHimself = CHARACTER_HIMSELF
+		WaterGodPossessive = ge_castanean_high_god_possessive
+		HealthGodName = ge_castanean_high_god
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerselfHimself = CHARACTER_HERSELF
+		HealthGodPossessive = ge_castanean_high_god_possessive
+		FertilityGodName = ge_castanean_high_god
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerselfHimself = CHARACTER_HERSELF
+		FertilityGodPossessive = ge_castanean_high_god_possessive
+		NightGodName = ge_castanean_high_god
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerselfHimself = CHARACTER_HIMSELF
+		NightGodPossessive = ge_castanean_high_god_possessive
+		DeathGodName = ge_generic_devil
+		DeathGodSheHe = CHARACTER_SHEHE_HE
+		DeathGodHerHis = CHARACTER_HERHIS_HIS
+		DeathGodHerselfHimself = CHARACTER_HIMSELF
+		DeathGodPossessive = ge_generic_devil_possessive
+		WitchGodName = ge_generic_devil
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHe = CHARACTER_SHEHE_HE
+		WitchGodPossessive = ge_generic_devil_possessive
+		WitchGodMotherFather = witchgodname_the_horned_god_motherfather
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		ge_old_rite = {
+			color = { 0.25 0.30 0.55 }
+			icon = orthodox
+			holy_site = constantinople
+			holy_site = jerusalem
+			holy_site = alexandria
+			holy_site = antioch
+			holy_site = rome
+			doctrine = tenet_communion
+			doctrine = tenet_monasticism
+			doctrine = tenet_literalism
+		}
+		ge_new_rite = {
+			color = { 0.45 0.50 0.75 }
+			icon = catholic
+			holy_site = constantinople
+			holy_site = jerusalem
+			holy_site = alexandria
+			holy_site = antioch
+			holy_site = rome
+			doctrine = tenet_communal_identity
+			doctrine = tenet_adaptive
+			doctrine = tenet_unrelenting_faith
+		}
+	}
+}
+
+ge_waditic_religion = {
+	family = rf_pagan
+	graphical_faith = pagan_gfx
+	doctrine = pagan_hostility_doctrine
+	pagan_roots = yes
+
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_pilgrimage_encouraged
+	doctrine = doctrine_funeral_bewailment
+
+	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	doctrine = doctrine_concubines
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_cousins
+
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_shunned
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_accepted
+
+	traits = {
+		virtues = { generous brave }
+		sins = { greedy craven }
+	}
+
+	reserved_male_names = { }
+	reserved_female_names = { }
+	holy_order_names = { { name = "holy_order_mine_wardens" } }
+	holy_order_maa = { armored_footmen }
+
+	localization = {
+		HighGodName = ge_waditic_high_god
+		HighGodNamePossessive = ge_waditic_high_god_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = ge_waditic_high_god
+		HighGodNameAlternatePossessive = ge_waditic_high_god_possessive
+		DevilName = ge_generic_devil
+		DevilNamePossessive = ge_generic_devil_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		PantheonTerm = ge_word_faith
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = { ge_waditic_high_god }
+		DevilNames = { ge_generic_devil }
+		FateGodName = ge_waditic_high_god
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerselfHimself = CHARACTER_HIMSELF
+		FateGodPossessive = ge_waditic_high_god_possessive
+		WealthGodName = ge_waditic_high_god
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerselfHimself = CHARACTER_HIMSELF
+		WealthGodPossessive = ge_waditic_high_god_possessive
+		HouseholdGodName = ge_waditic_high_god
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerselfHimself = CHARACTER_HERSELF
+		HouseholdGodPossessive = ge_waditic_high_god_possessive
+		KnowledgeGodName = ge_waditic_high_god
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerselfHimself = CHARACTER_HIMSELF
+		KnowledgeGodPossessive = ge_waditic_high_god_possessive
+		WarGodName = ge_waditic_high_god
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerselfHimself = CHARACTER_HIMSELF
+		WarGodPossessive = ge_waditic_high_god_possessive
+		WaterGodName = ge_waditic_high_god
+		WaterGodSheHe = CHARACTER_SHEHE_SHE
+		WaterGodHerHis = CHARACTER_HERHIS_HER
+		WaterGodHerselfHimself = CHARACTER_HERSELF
+		WaterGodPossessive = ge_waditic_high_god_possessive
+		HealthGodName = ge_waditic_high_god
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerselfHimself = CHARACTER_HERSELF
+		HealthGodPossessive = ge_waditic_high_god_possessive
+		FertilityGodName = ge_waditic_high_god
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerselfHimself = CHARACTER_HERSELF
+		FertilityGodPossessive = ge_waditic_high_god_possessive
+		NightGodName = ge_waditic_high_god
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerselfHimself = CHARACTER_HIMSELF
+		NightGodPossessive = ge_waditic_high_god_possessive
+		DeathGodName = ge_generic_devil
+		DeathGodSheHe = CHARACTER_SHEHE_HE
+		DeathGodHerHis = CHARACTER_HERHIS_HIS
+		DeathGodHerselfHimself = CHARACTER_HIMSELF
+		DeathGodPossessive = ge_generic_devil_possessive
+		WitchGodName = ge_generic_devil
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHe = CHARACTER_SHEHE_HE
+		WitchGodPossessive = ge_generic_devil_possessive
+		WitchGodMotherFather = witchgodname_the_horned_god_motherfather
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		ge_gold_fathers = {
+			color = { 0.75 0.55 0.15 }
+			icon = west_african
+			holy_site = timbuktu
+			holy_site = kano
+			holy_site = jerusalem
+			holy_site = alexandria
+			holy_site = mecca
+			doctrine = doctrine_gender_male_dominated
+			doctrine = tenet_warmonger
+			doctrine = tenet_tax_nonbelievers
+			doctrine = tenet_communal_identity
+		}
+		ge_gold_mothers = {
+			color = { 0.80 0.35 0.45 }
+			icon = west_african
+			holy_site = timbuktu
+			holy_site = kano
+			holy_site = jerusalem
+			holy_site = alexandria
+			holy_site = mecca
+			doctrine = doctrine_gender_female_dominated
+			doctrine = tenet_asceticism
+			doctrine = tenet_adaptive
+			doctrine = tenet_sanctity_of_nature
+		}
+	}
+}
+
+ge_tianzhao_religion = {
+	family = rf_eastern
+	graphical_faith = eastern_gfx
+	doctrine = eastern_hostility_doctrine
+
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_lay_clergy
+	doctrine = doctrine_pilgrimage_encouraged
+	doctrine = doctrine_funeral_stoic
+
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_cousins
+
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_shunned
+
+	traits = {
+		virtues = { diligent humble }
+		sins = { lazy arrogant }
+	}
+
+	reserved_male_names = { }
+	reserved_female_names = { }
+	holy_order_names = { { name = "holy_order_tianzhao_scribes" } }
+	holy_order_maa = { armored_footmen }
+
+	localization = {
+		HighGodName = ge_tianzhao_high_god
+		HighGodNamePossessive = ge_tianzhao_high_god_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = ge_tianzhao_high_god
+		HighGodNameAlternatePossessive = ge_tianzhao_high_god_possessive
+		DevilName = ge_generic_devil
+		DevilNamePossessive = ge_generic_devil_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		PantheonTerm = ge_word_faith
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = { ge_tianzhao_high_god }
+		DevilNames = { ge_generic_devil }
+		FateGodName = ge_tianzhao_high_god
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerselfHimself = CHARACTER_HIMSELF
+		FateGodPossessive = ge_tianzhao_high_god_possessive
+		WealthGodName = ge_tianzhao_high_god
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerselfHimself = CHARACTER_HIMSELF
+		WealthGodPossessive = ge_tianzhao_high_god_possessive
+		HouseholdGodName = ge_tianzhao_high_god
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerselfHimself = CHARACTER_HIMSELF
+		HouseholdGodPossessive = ge_tianzhao_high_god_possessive
+		KnowledgeGodName = ge_tianzhao_high_god
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerselfHimself = CHARACTER_HIMSELF
+		KnowledgeGodPossessive = ge_tianzhao_high_god_possessive
+		WarGodName = ge_tianzhao_high_god
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerselfHimself = CHARACTER_HIMSELF
+		WarGodPossessive = ge_tianzhao_high_god_possessive
+		WaterGodName = ge_tianzhao_high_god
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerselfHimself = CHARACTER_HIMSELF
+		WaterGodPossessive = ge_tianzhao_high_god_possessive
+		HealthGodName = ge_tianzhao_high_god
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerselfHimself = CHARACTER_HIMSELF
+		HealthGodPossessive = ge_tianzhao_high_god_possessive
+		FertilityGodName = ge_tianzhao_high_god
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerselfHimself = CHARACTER_HERSELF
+		FertilityGodPossessive = ge_tianzhao_high_god_possessive
+		NightGodName = ge_tianzhao_high_god
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerselfHimself = CHARACTER_HIMSELF
+		NightGodPossessive = ge_tianzhao_high_god_possessive
+		DeathGodName = ge_generic_devil
+		DeathGodSheHe = CHARACTER_SHEHE_HE
+		DeathGodHerHis = CHARACTER_HERHIS_HIS
+		DeathGodHerselfHimself = CHARACTER_HIMSELF
+		DeathGodPossessive = ge_generic_devil_possessive
+		WitchGodName = ge_generic_devil
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHe = CHARACTER_SHEHE_HE
+		WitchGodPossessive = ge_generic_devil_possessive
+		WitchGodMotherFather = witchgodname_the_horned_god_motherfather
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		ge_guojin = {
+			color = { 0.70 0.15 0.15 }
+			icon = taoism
+			holy_site = jerusalem
+			holy_site = kashgar
+			holy_site = lhasa
+			holy_site = rome
+			holy_site = mecca
+			doctrine = tenet_eastern_syncretism
+			doctrine = tenet_legalism
+			doctrine = tenet_communal_identity
+		}
+		ge_tianjin = {
+			color = { 0.20 0.35 0.70 }
+			icon = mahayana
+			holy_site = jerusalem
+			holy_site = kashgar
+			holy_site = lhasa
+			holy_site = rome
+			holy_site = mecca
+			doctrine = tenet_pacifism
+			doctrine = tenet_monasticism
+			doctrine = tenet_inner_journey
+		}
+	}
+}
+
+ge_hesthurgmani_religion = {
+	family = rf_pagan
+	graphical_faith = pagan_gfx
+	doctrine = pagan_hostility_doctrine
+	pagan_roots = yes
+
+	doctrine = doctrine_temporal_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_pilgrimage_encouraged
+	doctrine = doctrine_funeral_stoic
+
+	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_gender_male_only
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_approval
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_cousins
+
+	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_crime
+
+	traits = {
+		virtues = { brave just }
+		sins = { craven arbitrary }
+	}
+
+	reserved_male_names = { }
+	reserved_female_names = { }
+	holy_order_names = { { name = "holy_order_hesthurgmani_circles" } }
+	holy_order_maa = { armored_footmen }
+
+	localization = {
+		HighGodName = ge_hesthurgmani_high_god
+		HighGodNamePossessive = ge_hesthurgmani_high_god_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = ge_hesthurgmani_high_god
+		HighGodNameAlternatePossessive = ge_hesthurgmani_high_god_possessive
+		DevilName = ge_generic_devil
+		DevilNamePossessive = ge_generic_devil_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		PantheonTerm = ge_word_faith
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = { ge_hesthurgmani_high_god }
+		DevilNames = { ge_generic_devil }
+		FateGodName = ge_hesthurgmani_high_god
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerselfHimself = CHARACTER_HIMSELF
+		FateGodPossessive = ge_hesthurgmani_high_god_possessive
+		WealthGodName = ge_hesthurgmani_high_god
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerselfHimself = CHARACTER_HIMSELF
+		WealthGodPossessive = ge_hesthurgmani_high_god_possessive
+		HouseholdGodName = ge_hesthurgmani_high_god
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerselfHimself = CHARACTER_HIMSELF
+		HouseholdGodPossessive = ge_hesthurgmani_high_god_possessive
+		KnowledgeGodName = ge_hesthurgmani_high_god
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerselfHimself = CHARACTER_HIMSELF
+		KnowledgeGodPossessive = ge_hesthurgmani_high_god_possessive
+		WarGodName = ge_hesthurgmani_high_god
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerselfHimself = CHARACTER_HIMSELF
+		WarGodPossessive = ge_hesthurgmani_high_god_possessive
+		WaterGodName = ge_hesthurgmani_high_god
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerselfHimself = CHARACTER_HIMSELF
+		WaterGodPossessive = ge_hesthurgmani_high_god_possessive
+		HealthGodName = ge_hesthurgmani_high_god
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerselfHimself = CHARACTER_HIMSELF
+		HealthGodPossessive = ge_hesthurgmani_high_god_possessive
+		FertilityGodName = ge_hesthurgmani_high_god
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerselfHimself = CHARACTER_HERSELF
+		FertilityGodPossessive = ge_hesthurgmani_high_god_possessive
+		NightGodName = ge_hesthurgmani_high_god
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerselfHimself = CHARACTER_HIMSELF
+		NightGodPossessive = ge_hesthurgmani_high_god_possessive
+		DeathGodName = ge_generic_devil
+		DeathGodSheHe = CHARACTER_SHEHE_HE
+		DeathGodHerHis = CHARACTER_HERHIS_HIS
+		DeathGodHerselfHimself = CHARACTER_HIMSELF
+		DeathGodPossessive = ge_generic_devil_possessive
+		WitchGodName = ge_generic_devil
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHe = CHARACTER_SHEHE_HE
+		WitchGodPossessive = ge_generic_devil_possessive
+		WitchGodMotherFather = witchgodname_the_horned_god_motherfather
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		ge_north_circle = {
+			color = { 0.35 0.40 0.45 }
+			icon = catholic
+			holy_site = cologne
+			holy_site = paderborn
+			holy_site = rome
+			holy_site = jerusalem
+			holy_site = uppsala
+			doctrine = tenet_armed_pilgrimages
+			doctrine = tenet_communal_identity
+			doctrine = tenet_unrelenting_faith
+		}
+		ge_south_circle = {
+			color = { 0.55 0.25 0.20 }
+			icon = catholic
+			holy_site = cologne
+			holy_site = paderborn
+			holy_site = rome
+			holy_site = jerusalem
+			holy_site = uppsala
+			doctrine = tenet_communion
+			doctrine = tenet_monasticism
+			doctrine = tenet_legalism
+		}
+	}
+}
+
+ge_bhajsingh_religion = {
+	family = rf_eastern
+	graphical_faith = eastern_gfx
+	doctrine = eastern_hostility_doctrine
+
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_pilgrimage_encouraged
+	doctrine = doctrine_funeral_cremation
+
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	doctrine = doctrine_polygamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_restricted
+
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_accepted
+
+	traits = {
+		virtues = { temperate patient }
+		sins = { gluttonous wrathful }
+	}
+
+	reserved_male_names = { }
+	reserved_female_names = { }
+	holy_order_names = { { name = "holy_order_bhaj_guardians" } }
+	holy_order_maa = { armored_footmen }
+
+	localization = {
+		HighGodName = ge_bhajsingh_high_god
+		HighGodNamePossessive = ge_bhajsingh_high_god_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = ge_bhajsingh_high_god
+		HighGodNameAlternatePossessive = ge_bhajsingh_high_god_possessive
+		DevilName = ge_generic_devil
+		DevilNamePossessive = ge_generic_devil_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		PantheonTerm = ge_word_faith
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = { ge_bhajsingh_high_god }
+		DevilNames = { ge_generic_devil }
+		FateGodName = ge_bhajsingh_high_god
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerselfHimself = CHARACTER_HIMSELF
+		FateGodPossessive = ge_bhajsingh_high_god_possessive
+		WealthGodName = ge_bhajsingh_high_god
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerselfHimself = CHARACTER_HIMSELF
+		WealthGodPossessive = ge_bhajsingh_high_god_possessive
+		HouseholdGodName = ge_bhajsingh_high_god
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerselfHimself = CHARACTER_HIMSELF
+		HouseholdGodPossessive = ge_bhajsingh_high_god_possessive
+		KnowledgeGodName = ge_bhajsingh_high_god
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerselfHimself = CHARACTER_HIMSELF
+		KnowledgeGodPossessive = ge_bhajsingh_high_god_possessive
+		WarGodName = ge_bhajsingh_high_god
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerselfHimself = CHARACTER_HIMSELF
+		WarGodPossessive = ge_bhajsingh_high_god_possessive
+		WaterGodName = ge_bhajsingh_high_god
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerselfHimself = CHARACTER_HIMSELF
+		WaterGodPossessive = ge_bhajsingh_high_god_possessive
+		HealthGodName = ge_bhajsingh_high_god
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerselfHimself = CHARACTER_HIMSELF
+		HealthGodPossessive = ge_bhajsingh_high_god_possessive
+		FertilityGodName = ge_bhajsingh_high_god
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerselfHimself = CHARACTER_HERSELF
+		FertilityGodPossessive = ge_bhajsingh_high_god_possessive
+		NightGodName = ge_bhajsingh_high_god
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerselfHimself = CHARACTER_HIMSELF
+		NightGodPossessive = ge_bhajsingh_high_god_possessive
+		DeathGodName = ge_generic_devil
+		DeathGodSheHe = CHARACTER_SHEHE_HE
+		DeathGodHerHis = CHARACTER_HERHIS_HIS
+		DeathGodHerselfHimself = CHARACTER_HIMSELF
+		DeathGodPossessive = ge_generic_devil_possessive
+		WitchGodName = ge_generic_devil
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHe = CHARACTER_SHEHE_HE
+		WitchGodPossessive = ge_generic_devil_possessive
+		WitchGodMotherFather = witchgodname_the_horned_god_motherfather
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		ge_many_gods = {
+			color = { 0.85 0.55 0.15 }
+			icon = hindu
+			holy_site = varanasi
+			holy_site = ayodhya
+			holy_site = mathura
+			holy_site = haridwar
+			holy_site = jerusalem
+			doctrine = tenet_reincarnation
+			doctrine = tenet_esotericism
+			doctrine = tenet_adaptive
+		}
+		ge_one_god = {
+			color = { 0.55 0.20 0.55 }
+			icon = hindu
+			holy_site = varanasi
+			holy_site = ayodhya
+			holy_site = mathura
+			holy_site = haridwar
+			holy_site = jerusalem
+			doctrine = tenet_literalism
+			doctrine = tenet_communal_identity
+			doctrine = tenet_unrelenting_faith
+		}
+		ge_middle_path = {
+			color = { 0.40 0.65 0.35 }
+			icon = mahayana
+			holy_site = varanasi
+			holy_site = ayodhya
+			holy_site = mathura
+			holy_site = haridwar
+			holy_site = jerusalem
+			doctrine = tenet_pacifism
+			doctrine = tenet_inner_journey
+			doctrine = tenet_monasticism
+		}
+	}
+}
+
+ge_salbuthul_religion = {
+	family = rf_pagan
+	graphical_faith = pagan_gfx
+	doctrine = pagan_hostility_doctrine
+	pagan_roots = yes
+
+	doctrine = doctrine_temporal_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_fundamentalist
+	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_pilgrimage_mandatory
+	doctrine = doctrine_funeral_mummification
+
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+
+	doctrine = doctrine_concubines
+	doctrine = doctrine_divorce_disallowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_unrestricted
+
+	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_shunned
+
+	traits = {
+		virtues = { zealous diligent }
+		sins = { cynical lazy }
+	}
+
+	reserved_male_names = { }
+	reserved_female_names = { }
+	holy_order_names = { { name = "holy_order_sun_spears" } }
+	holy_order_maa = { armored_footmen }
+
+	localization = {
+		HighGodName = ge_salbuthul_high_god
+		HighGodNamePossessive = ge_salbuthul_high_god_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = ge_salbuthul_high_god
+		HighGodNameAlternatePossessive = ge_salbuthul_high_god_possessive
+		DevilName = ge_generic_devil
+		DevilNamePossessive = ge_generic_devil_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		PantheonTerm = ge_word_faith
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = { ge_salbuthul_high_god }
+		DevilNames = { ge_generic_devil }
+		FateGodName = ge_salbuthul_high_god
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerselfHimself = CHARACTER_HIMSELF
+		FateGodPossessive = ge_salbuthul_high_god_possessive
+		WealthGodName = ge_salbuthul_high_god
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerselfHimself = CHARACTER_HIMSELF
+		WealthGodPossessive = ge_salbuthul_high_god_possessive
+		HouseholdGodName = ge_salbuthul_high_god
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerselfHimself = CHARACTER_HIMSELF
+		HouseholdGodPossessive = ge_salbuthul_high_god_possessive
+		KnowledgeGodName = ge_salbuthul_high_god
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerselfHimself = CHARACTER_HIMSELF
+		KnowledgeGodPossessive = ge_salbuthul_high_god_possessive
+		WarGodName = ge_salbuthul_high_god
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerselfHimself = CHARACTER_HIMSELF
+		WarGodPossessive = ge_salbuthul_high_god_possessive
+		WaterGodName = ge_salbuthul_high_god
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerselfHimself = CHARACTER_HIMSELF
+		WaterGodPossessive = ge_salbuthul_high_god_possessive
+		HealthGodName = ge_salbuthul_high_god
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerselfHimself = CHARACTER_HIMSELF
+		HealthGodPossessive = ge_salbuthul_high_god_possessive
+		FertilityGodName = ge_salbuthul_high_god
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerselfHimself = CHARACTER_HERSELF
+		FertilityGodPossessive = ge_salbuthul_high_god_possessive
+		NightGodName = ge_salbuthul_high_god
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerselfHimself = CHARACTER_HIMSELF
+		NightGodPossessive = ge_salbuthul_high_god_possessive
+		DeathGodName = ge_generic_devil
+		DeathGodSheHe = CHARACTER_SHEHE_HE
+		DeathGodHerHis = CHARACTER_HERHIS_HIS
+		DeathGodHerselfHimself = CHARACTER_HIMSELF
+		DeathGodPossessive = ge_generic_devil_possessive
+		WitchGodName = ge_generic_devil
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHe = CHARACTER_SHEHE_HE
+		WitchGodPossessive = ge_generic_devil_possessive
+		WitchGodMotherFather = witchgodname_the_horned_god_motherfather
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		ge_sun_pharaoh = {
+			color = { 0.90 0.75 0.20 }
+			icon = kushitism
+			holy_site = alexandria
+			holy_site = jerusalem
+			holy_site = mecca
+			holy_site = medina
+			holy_site = antioch
+			doctrine = tenet_divine_marriage
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_legalism
+		}
+		ge_broken_crown = {
+			color = { 0.25 0.35 0.30 }
+			icon = kushitism
+			holy_site = alexandria
+			holy_site = jerusalem
+			holy_site = mecca
+			holy_site = medina
+			holy_site = antioch
+			doctrine = tenet_communal_identity
+			doctrine = tenet_adaptive
+			doctrine = tenet_aniconism
+		}
+	}
+}
+
+ge_remant_religion = {
+	family = rf_abrahamic
+	graphical_faith = catholic_gfx
+	doctrine = abrahamic_hostility_doctrine
+
+	doctrine = doctrine_spiritual_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_pilgrimage_encouraged
+	doctrine = doctrine_funeral_stoic
+
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_male_only
+	doctrine = doctrine_clerical_marriage_disallowed
+	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_approval
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_cousins
+
+	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_crime
+
+	traits = {
+		virtues = { just chaste }
+		sins = { arbitrary lustful }
+	}
+
+	reserved_male_names = { }
+	reserved_female_names = { }
+	holy_order_names = { { name = "holy_order_remant_legion" } }
+	holy_order_maa = { armored_footmen }
+
+	localization = {
+		HighGodName = ge_remant_high_god
+		HighGodNamePossessive = ge_remant_high_god_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = ge_remant_high_god
+		HighGodNameAlternatePossessive = ge_remant_high_god_possessive
+		DevilName = ge_generic_devil
+		DevilNamePossessive = ge_generic_devil_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		PantheonTerm = ge_word_faith
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = { ge_remant_high_god }
+		DevilNames = { ge_generic_devil }
+		FateGodName = ge_remant_high_god
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerselfHimself = CHARACTER_HIMSELF
+		FateGodPossessive = ge_remant_high_god_possessive
+		WealthGodName = ge_remant_high_god
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerselfHimself = CHARACTER_HIMSELF
+		WealthGodPossessive = ge_remant_high_god_possessive
+		HouseholdGodName = ge_remant_high_god
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerselfHimself = CHARACTER_HIMSELF
+		HouseholdGodPossessive = ge_remant_high_god_possessive
+		KnowledgeGodName = ge_remant_high_god
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerselfHimself = CHARACTER_HIMSELF
+		KnowledgeGodPossessive = ge_remant_high_god_possessive
+		WarGodName = ge_remant_high_god
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerselfHimself = CHARACTER_HIMSELF
+		WarGodPossessive = ge_remant_high_god_possessive
+		WaterGodName = ge_remant_high_god
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerselfHimself = CHARACTER_HIMSELF
+		WaterGodPossessive = ge_remant_high_god_possessive
+		HealthGodName = ge_remant_high_god
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerselfHimself = CHARACTER_HIMSELF
+		HealthGodPossessive = ge_remant_high_god_possessive
+		FertilityGodName = ge_remant_high_god
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerselfHimself = CHARACTER_HERSELF
+		FertilityGodPossessive = ge_remant_high_god_possessive
+		NightGodName = ge_remant_high_god
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerselfHimself = CHARACTER_HIMSELF
+		NightGodPossessive = ge_remant_high_god_possessive
+		DeathGodName = ge_generic_devil
+		DeathGodSheHe = CHARACTER_SHEHE_HE
+		DeathGodHerHis = CHARACTER_HERHIS_HIS
+		DeathGodHerselfHimself = CHARACTER_HIMSELF
+		DeathGodPossessive = ge_generic_devil_possessive
+		WitchGodName = ge_generic_devil
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHe = CHARACTER_SHEHE_HE
+		WitchGodPossessive = ge_generic_devil_possessive
+		WitchGodMotherFather = witchgodname_the_horned_god_motherfather
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		ge_west_remant = {
+			color = { 0.55 0.10 0.10 }
+			icon = catholic
+			holy_site = rome
+			holy_site = jerusalem
+			holy_site = alexandria
+			holy_site = antioch
+			holy_site = constantinople
+			doctrine = tenet_armed_pilgrimages
+			doctrine = tenet_communion
+			doctrine = tenet_legalism
+		}
+		ge_east_remant = {
+			color = { 0.30 0.20 0.55 }
+			icon = orthodox
+			holy_site = rome
+			holy_site = jerusalem
+			holy_site = alexandria
+			holy_site = antioch
+			holy_site = constantinople
+			doctrine = tenet_communal_identity
+			doctrine = tenet_monasticism
+			doctrine = tenet_literalism
+		}
+	}
+}

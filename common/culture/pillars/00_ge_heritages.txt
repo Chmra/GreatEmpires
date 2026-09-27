@@ -1,0 +1,10 @@
+# Heritages for the seven Great Empires cultures.
+# Languages reuse vanilla pillars so we do not have to ship name lists yet.
+
+heritage_ge_castanean = { type = heritage }
+heritage_ge_waditic = { type = heritage }
+heritage_ge_tianzhao = { type = heritage }
+heritage_ge_hesthurgmani = { type = heritage }
+heritage_ge_bhajsingh = { type = heritage }
+heritage_ge_salbuthul = { type = heritage }
+heritage_ge_remant = { type = heritage }

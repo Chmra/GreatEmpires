@@ -51,17 +51,17 @@ Bear: A group of people who prefer to protect their loved ones and rule with com
 Deer: A group of people who prefer to live independently and hunt for their protection. They are territorial and love their antlers.
 Avian: A group of bird people who like to live in the mountains and houses in trees.
 Elephant: A large group of people who live in savannahs near the desert.
-Hominid
+Hominid: A clever and mischievous group of people who value learning and intrigue.
 Boar: A group of people with a hearty sense of being able to find treasure and food.
 
 Location and Race Placements
-1. Castanea Union: Human, Elf, Canine, Equine, Bear, Feline, Deer, Orc, Dwarf, Centaur, Satyr/Nymph, Merfolk
+1. Castanea Union: Human, Elf, Canine, Equine, Bear, Feline, Deer, Orc, Dwarf, Centaur, Satyr/Nymph, Merfolk, Boar, Deer
 2. Waditic Peoples: Human, Orc, Canine, Elephant, Naga, Giant, Goblin, Feline, Hominid, Equine, Boar, Hominid, Bovine
 3. Great (Dynasty Name): Human, Yaksha, Centaur, Equine, Merfolk, Avian, Feline, Naga, Gem Dragonborn, Elephant, Hominid, Orc, Boar, Hominid, Bovine
-4. Hesthurgmani Hegemony: Human, Elf, Orc, Dwarf, Goblin, Kobold, Merfolk, Troll, Ogre, Giant, Nymph/Satyr, Fairy, Centaur, Canine, Feline, Equine, Bear, Deer, Avian, Chromatic Dragonborn, Boar, Hominid, Bovine, Avian
-5. Bhaj-Singh: Human, Yaksha, Elephant, Avian, Hominid, Canine, Feline, Orc, Boar, Hominid, Bovine
-6. Salb-Uthul: Human, Naga, Canine, Feline, Elephant, Chromatic Dragonborn, Equine, Bovine
-7. Remant: Human, Elf, Orc, Dwarf, Goblin, Kobold, Merfolk, Troll, Ogre, Giant, Nymph/Satyr,  Fairy, Centaur, Canine, Feline, Equine, Bear, Deer, Avian, Chromatic Dragonborn, Boar, Hominid, Bovine
+4. Hesthurgmani Hegemony: Human, Elf, Orc, Dwarf, Goblin, Merfolk, Troll, Ogre, Giant, Nymph/Satyr, Fairy, Centaur, Canine, Feline, Equine, Bear, Deer, Avian, Chromatic Dragonborn, Boar, Hominid, Bovine, Avian
+5. Bhaj-Singh: Human, Yaksha, Elephant, Avian, Hominid, Canine, Feline, Orc, Boar, Hominid, Bovine, Naga
+6. Salb-Uthul: Human, Naga, Canine, Feline, Elephant, Chromatic Dragonborn, Equine, Bovine, Avian
+7. Remant: Human, Elf, Orc, Dwarf, Goblin, Merfolk, Troll, Ogre, Giant, Nymph/Satyr,  Fairy, Centaur, Canine, Feline, Equine, Bear, Deer, Avian, Chromatic Dragonborn, Boar, Hominid, Bovine
 At 250 years after the start date, there will be a demon invasion near Remant
 
 Holy Blood (As a trait with xp that can only be boosted with inheritance) is based on inheritance from ancestors also known as the strongest generation. They come from 3 different deities.

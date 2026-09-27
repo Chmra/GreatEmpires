@@ -1,0 +1,751 @@
+# Great Empires — species traits
+# One per character. Icons point at files already in gfx/interface/icons/traits.
+# Vanilla characters will not roll these (birth/random_creation = 0).
+
+@ge_race_cost = 40
+
+ge_human = {
+	category = fame
+	physical = yes
+	good = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/struggle_trait.dds"
+
+	lifestyle_xp_gain_mult = 0.15
+	same_opinion = 5
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_human_desc
+			}
+			desc = trait_ge_human_character_desc
+		}
+	}
+}
+
+ge_elf = {
+	category = fame
+	physical = yes
+	good = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/_frame_fame_good.dds"
+
+	diplomacy = 2
+	intrigue = 2
+	martial = -2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_elf_desc
+			}
+			desc = trait_ge_elf_character_desc
+		}
+	}
+}
+
+ge_orc = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/_frame_physical_neutral.dds"
+
+	martial = 2
+	learning = 2
+	stewardship = -2
+	prowess = 2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_orc_desc
+			}
+			desc = trait_ge_orc_character_desc
+		}
+	}
+}
+
+ge_dwarf = {
+	category = fame
+	physical = yes
+	good = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/_frame_education.dds"
+
+	stewardship = 2
+	diplomacy = 2
+	intrigue = -2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_dwarf_desc
+			}
+			desc = trait_ge_dwarf_character_desc
+		}
+	}
+}
+
+ge_goblin = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/_frame_fame_neutral.dds"
+
+	intrigue = 3
+	prowess = -3
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_goblin_desc
+			}
+			desc = trait_ge_goblin_character_desc
+		}
+	}
+}
+
+ge_kobold = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/_frame_physical_bad.dds"
+
+	intrigue = 2
+	stewardship = 1
+	prowess = -2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_kobold_desc
+			}
+			desc = trait_ge_kobold_character_desc
+		}
+	}
+}
+
+ge_merfolk = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/shork.png"
+
+	stewardship = 2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_merfolk_desc
+			}
+			desc = trait_ge_merfolk_character_desc
+		}
+	}
+}
+
+ge_troll = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/_frame_physical_good.dds"
+
+	prowess = 3
+	stewardship = 1
+	diplomacy = -1
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_troll_desc
+			}
+			desc = trait_ge_troll_character_desc
+		}
+	}
+}
+
+ge_ogre = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/_frame_commander.dds"
+
+	martial = 2
+	prowess = 4
+	learning = -2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_ogre_desc
+			}
+			desc = trait_ge_ogre_character_desc
+		}
+	}
+}
+
+ge_giant = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/_frame_health.dds"
+
+	stewardship = 2
+	prowess = 3
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_giant_desc
+			}
+			desc = trait_ge_giant_character_desc
+		}
+	}
+}
+
+ge_yaksha = {
+	category = fame
+	physical = yes
+	good = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/_frame_fame_good.dds"
+
+	learning = 2
+	diplomacy = 1
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_yaksha_desc
+			}
+			desc = trait_ge_yaksha_character_desc
+		}
+	}
+}
+
+ge_nymph = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/_frame_pregnant.dds"
+
+	diplomacy = 2
+	intrigue = 1
+	fertility = 0.25
+	attraction_opinion = 15
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_nymph_desc
+			}
+			desc = trait_ge_nymph_character_desc
+		}
+	}
+}
+
+ge_fairy = {
+	category = fame
+	physical = yes
+	good = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/_frame_fame_neutral.dds"
+
+	stewardship = 1
+	diplomacy = 2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_fairy_desc
+			}
+			desc = trait_ge_fairy_character_desc
+		}
+	}
+}
+
+ge_centaur = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/horse-face_1f434.png"
+
+	martial = 2
+	prowess = 1
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_centaur_desc
+			}
+			desc = trait_ge_centaur_character_desc
+		}
+	}
+}
+
+ge_demon = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 70
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 80
+	icon = "gfx/interface/icons/traits/_frame_fame_bad.dds"
+
+	martial = 3
+	intrigue = 2
+	diplomacy = -2
+	dread_baseline_add = 15
+	same_opinion = 15
+	general_opinion = -10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_demon_desc
+			}
+			desc = trait_ge_demon_character_desc
+		}
+	}
+}
+
+ge_naga = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/crocodile_1f40a.png"
+
+	learning = 2
+	intrigue = 2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_naga_desc
+			}
+			desc = trait_ge_naga_character_desc
+		}
+	}
+}
+
+ge_chromatic_dragonborn = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 55
+	icon = "gfx/interface/icons/traits/dragon-face_1f432.png"
+
+	learning = 2
+	martial = 1
+	prowess = 2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_chromatic_dragonborn_desc
+			}
+			desc = trait_ge_chromatic_dragonborn_character_desc
+		}
+	}
+}
+
+ge_gem_dragonborn = {
+	category = fame
+	physical = yes
+	good = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 55
+	icon = "gfx/interface/icons/traits/wasterndragon.png"
+
+	learning = 2
+	diplomacy = 2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_gem_dragonborn_desc
+			}
+			desc = trait_ge_gem_dragonborn_character_desc
+		}
+	}
+}
+
+ge_canine = {
+	category = fame
+	physical = yes
+	good = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/wolf-face_1f43a.png"
+
+	diplomacy = 2
+	martial = 2
+	same_opinion = 15
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_canine_desc
+			}
+			desc = trait_ge_canine_character_desc
+		}
+	}
+}
+
+ge_feline = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/cat-face_1f431.png"
+
+	martial = 2
+	intrigue = 2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_feline_desc
+			}
+			desc = trait_ge_feline_character_desc
+		}
+	}
+}
+
+ge_bovine = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/moo.png"
+
+	stewardship = 3
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_bovine_desc
+			}
+			desc = trait_ge_bovine_character_desc
+		}
+	}
+}
+
+ge_equine = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/horse-face_1f434.png"
+
+	prowess = 2
+	martial = 1
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_equine_desc
+			}
+			desc = trait_ge_equine_character_desc
+		}
+	}
+}
+
+ge_bear = {
+	category = fame
+	physical = yes
+	good = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/bear_1f43b.png"
+
+	diplomacy = 1
+	prowess = 2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_bear_desc
+			}
+			desc = trait_ge_bear_character_desc
+		}
+	}
+}
+
+ge_deer = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/eagle_1f985.png"
+
+	intrigue = 1
+	prowess = 1
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_deer_desc
+			}
+			desc = trait_ge_deer_character_desc
+		}
+	}
+}
+
+ge_avian = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/bird_1f426.png"
+
+	diplomacy = 1
+	stewardship = 1
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_avian_desc
+			}
+			desc = trait_ge_avian_character_desc
+		}
+	}
+}
+
+ge_elephant = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/elephant_1f418.png"
+
+	stewardship = 2
+	prowess = 2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_elephant_desc
+			}
+			desc = trait_ge_elephant_character_desc
+		}
+	}
+}
+
+ge_hominid = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/fox_1f98a.png"
+
+	learning = 1
+	intrigue = 1
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_hominid_desc
+			}
+			desc = trait_ge_hominid_character_desc
+		}
+	}
+}
+
+ge_boar = {
+	category = fame
+	physical = yes
+	genetic = yes
+	inherit_chance = 85
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = @ge_race_cost
+	icon = "gfx/interface/icons/traits/boar_1f417.png"
+
+	stewardship = 1
+	prowess = 2
+	same_opinion = 10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_ge_boar_desc
+			}
+			desc = trait_ge_boar_character_desc
+		}
+	}
+}

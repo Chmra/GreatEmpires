@@ -1,0 +1,73 @@
+# Birth: child inherits the higher Holy Blood tier of its two parents.
+# Year pulse: stub for the Remant demon invasion at start + 250 years.
+
+on_birth_child = {
+	on_actions = { ge_on_birth_holy_blood }
+}
+
+ge_on_birth_holy_blood = {
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					scope:mother = { has_trait = ge_holy_blood_perfect }
+					scope:real_father = { has_trait = ge_holy_blood_perfect }
+				}
+			}
+			add_trait = ge_holy_blood_perfect
+		}
+		else_if = {
+			limit = {
+				OR = {
+					scope:mother = { has_trait = ge_holy_blood_major }
+					scope:real_father = { has_trait = ge_holy_blood_major }
+				}
+			}
+			add_trait = ge_holy_blood_major
+		}
+		else_if = {
+			limit = {
+				OR = {
+					scope:mother = { has_trait = ge_holy_blood_minor }
+					scope:real_father = { has_trait = ge_holy_blood_minor }
+				}
+			}
+			add_trait = ge_holy_blood_minor
+		}
+		else_if = {
+			limit = {
+				OR = {
+					scope:mother = { has_trait = ge_holy_blood_partial }
+					scope:real_father = { has_trait = ge_holy_blood_partial }
+				}
+			}
+			add_trait = ge_holy_blood_partial
+		}
+	}
+}
+
+on_yearly_pulse = {
+	on_actions = { ge_yearly_story_pulse }
+}
+
+ge_yearly_story_pulse = {
+	trigger = {
+		has_title = title:e_ge_remant
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { exists = global_var:ge_demon_invasion_fired }
+				current_date >= 1066.9.15
+				# Replace the date below with start_date + 250 years once a bookmark exists.
+				current_date >= 1316.9.15
+			}
+			set_global_variable = {
+				name = ge_demon_invasion_fired
+				value = yes
+			}
+			# Placeholder: spawn events / characters in a later pass.
+			custom_tooltip = ge_demon_invasion_stub_tt
+		}
+	}
+}
